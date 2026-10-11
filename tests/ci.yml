@@ -39,7 +39,7 @@ jobs:
       - name: Build Docker image
         uses: docker/build-push-action@v6
         with:
-          context: ./my-app-project
+          context: .
           file: ./Dockerfile
           push: true
           tags: nileshrathod17/my-app-project        
